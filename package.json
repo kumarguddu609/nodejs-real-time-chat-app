@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-real-time-chat-app",
+  "version": "1.0.0",
+  "description": "Basic real time chat application with;\r * Node.js \r * socket.io\r * ExpressJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumarguddu609/nodejs-real-time-chat-app.git"
+  },
+  "author": "Guddu Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumarguddu609/nodejs-real-time-chat-app/issues"
+  },
+  "homepage": "https://github.com/kumarguddu609/nodejs-real-time-chat-app#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jade": "^1.9.2",
+    "pug": "^3.0.2",
+    "socket.io": "^4.7.4"
+  }
+}
