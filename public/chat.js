@@ -1,8 +1,7 @@
-require('dotenv').config()
 window.onload = function() {
 
     var messages = [];
-    var socket = io.connect(process.env.SOCKET_URL);
+    var socket = io.connect('http://localhost:3000');
     var field = document.getElementById("field");
     var sendButton = document.getElementById("send");
     var content = document.getElementById("content");
