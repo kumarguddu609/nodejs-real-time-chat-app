@@ -1,9 +1,10 @@
 {
-  "name": "nodejs-real-time-chat-app",
+  "name": "real-time-chat-app",
   "version": "1.0.0",
   "description": "Basic real time chat application with;\r * Node.js \r * socket.io\r * ExpressJS",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start":"node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
